@@ -18,7 +18,7 @@ medLabel.addEventListener("input", updateReward);
 const zinokLabel = document.getElementById("zinokInput");
 zinokLabel.addEventListener("input", updateReward);
 
-const ceny = {zelezo: 5000, zlato: 40000, cin: 12000, hlinik: 3000, med: 4000, zinok: 3000};
+const ceny = {zelezo: 4500, zlato: 37000, cin: 11000, hlinik: 3000, med: 3000, zinok: 3000};
 
 function updateReward() {
     const reward =
